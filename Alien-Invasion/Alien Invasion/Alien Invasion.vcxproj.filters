@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Data Structures">
+      <UniqueIdentifier>{68083d47-0566-4ed5-afc9-c8ca34a1d64d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Units">
+      <UniqueIdentifier>{39cf994c-9a65-4aee-95fc-29c180fece95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stack.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Units</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthSoldier.h">
+      <Filter>Units</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthArmy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandGen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AlienDrone.h">
+      <Filter>Units</Filter>
+    </ClInclude>
+    <ClInclude Include="AlienArmy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AlienSolider.h">
+      <Filter>Units</Filter>
+    </ClInclude>
+    <ClInclude Include="AlienMonster.h">
+      <Filter>Units</Filter>
+    </ClInclude>
+    <ClInclude Include="AlienMonstersArray.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Dequeue.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="DequeuNode.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthGunnery.h">
+      <Filter>Units</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthTank.h">
+      <Filter>Units</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityNode.h">
+      <Filter>Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="HealingUnit.h">
+      <Filter>Units</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AlienArmy.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthArmy.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandGen.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthTank.cpp">
+      <Filter>Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Units</Filter>
+    </ClCompile>
+    <ClCompile Include="AlienMonster.cpp">
+      <Filter>Units</Filter>
+    </ClCompile>
+    <ClCompile Include="HealingUnit.cpp">
+      <Filter>Units</Filter>
+    </ClCompile>
+    <ClCompile Include="AlienDrone.cpp">
+      <Filter>Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthGunnery.cpp">
+      <Filter>Units</Filter>
+    </ClCompile>
+    <ClCompile Include="AlienSolider.cpp">
+      <Filter>Units</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthSoldier.cpp">
+      <Filter>Units</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
